@@ -8,7 +8,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'absolutecinema12345!@#$%^goal')
 
 DEBUG = os.environ.get('DEBUG', 'False').lower() == 'true'
 
-ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'backend']
+ALLOWED_HOSTS = ['localhost', '127.0.0.1', 'backend', 'pepega.sytes.net']
 
 
 # Application definition
